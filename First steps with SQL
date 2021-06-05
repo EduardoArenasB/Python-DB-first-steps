@@ -1,0 +1,26 @@
+# Relational Databases
+#create table
+
+#CREATE TABLE
+CREATE TABLE Users(
+	name VARCHAR(128),
+	email VARCHAR(128)
+)
+
+#INSERT
+INSERT INTO Users (name, email) VALUES ('Sergio', 'sergiobracamonte@gmail.com')
+
+#DELETE
+DELETE FROM Users WHERE email= 'nithilus.upiicsa@gmail.com'
+
+#UPDATE
+UPDATE Users SET name='Josu' WHERE email='lyn_narlu@hotmail.com'
+
+#SELECT ALL
+SELECT * FROM Users
+
+#SELECT PARTICULAR
+SELECT * FROM Users WHERE email='richairo@gmail.com'
+
+#ORDER BY EXAMPLES
+SELECT * FROM Users ORDER BY email
